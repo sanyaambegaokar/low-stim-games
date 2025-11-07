@@ -1,7 +1,11 @@
 import streamlit as st
 import random
 
-st.title("Rock Paper Scissor!")
+
+st.set_page_config(page_title="Rock Paper Scissors 🪨", page_icon="🪨", layout="centered")
+
+
+#st.title("Rock Paper Scissor!")
 
 name = st.text_input("What is your name?", key="name")
 

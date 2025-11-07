@@ -1,6 +1,8 @@
 import random
 import streamlit as st
 
+st.set_page_config(page_title="Number Guessing Game 🔢", page_icon="🔢", layout="centered")
+
 st.title(f"Hello, welcome to the number guessing game.")
 st.subheader(f"To begin, you need to enter a range of numbers.")
 st.subheader(f"The game will then pick the winning number for you to guess.")
