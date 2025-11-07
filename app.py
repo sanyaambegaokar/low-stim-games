@@ -41,14 +41,14 @@ with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.markdown("### 🪨 Rock Paper Scissors")
     st.write("A quiet classic. No rush — play when you feel like it.")
-    st.link_button("Play", "https://share.streamlit.io/sanyaambegaokar/lowstim-games/games/rock_paper_scissors.py")
+    st.link_button("Play", "https://share.streamlit.io/sanyaambegaokar/lowstim-games/games/rps_streamlit.py")
     st.markdown('</div>', unsafe_allow_html=True)
 
 with col2:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.markdown("### 🌊 Breathing Buddy")
     st.write("Breathe with the tide. A calming breathing exercise to slow down.")
-    st.link_button("Play", "https://share.streamlit.io/sanyaambegaokar/lowstim-games/games/breathing_buddy.py")
+    st.link_button("Play", "https://share.streamlit.io/sanyaambegaokar/lowstim-games/games/breathing-buddy.py")
     st.markdown('</div>', unsafe_allow_html=True)
 
 st.markdown("---")
